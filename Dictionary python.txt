@@ -1,0 +1,7 @@
+d1 = { "Mutable" : "Which can change" , "Immutable" : "Which cannot change" , "Set" : "A group of something" , "Skipping rope" : "A sport equipment" , "Anonymous" : "Not known" }
+print('\n')
+n1 = input()
+print('\n')
+print('You choose' , n1)
+print('\n')
+print('The Meaning of the word you choose is' , d1[n1])
