@@ -1,0 +1,13 @@
+print('Tell your age')
+age = int(input())
+if age>7 and age<18:
+    print('Not eligible for driving')
+    
+elif age==18:
+    print('We cannot tell whether you are eligible for driving or not. Go to your nearest RTO for physical checkup.')
+    
+elif age>18 and age<100:
+    print('Eligible for driving')
+    
+else:
+    print('Invalid age')
